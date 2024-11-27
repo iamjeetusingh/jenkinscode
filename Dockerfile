@@ -9,7 +9,7 @@ RUN apt-get clean
 # Copy the index.html file to the default apache2 location
 COPY index.html /var/www/html/
 
-# Expose port 5000
+# Expose port 80
 EXPOSE 80
 
 # Change apache2 to listen on port 5000
